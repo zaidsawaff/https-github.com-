@@ -1,0 +1,5 @@
+dataset_id,historical_valid_count,leakage_safe_count,duplicates_removed,train_n,validation_n,protected_test_n,notes
+segmentation,6290,5955,NA,4491,793,671,"Unique conflict-free identities after duplicate, decoded-pixel, dimension, non-empty-mask, and mask-conflict controls"
+general,3835,3835,0,NA,NA,NA,"Six source classes verified; legacy 574-image holdout excluded from routing-model development"
+ckd17,840,659,181,529,66,64,"Exact-image SHA-256 deduplication; patient identifiers unavailable, so residual near-duplicate and subject-level leakage risk remains"
+

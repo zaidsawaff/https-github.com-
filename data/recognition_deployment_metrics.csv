@@ -1,0 +1,8 @@
+model,representation,platform,median_latency_ms,model_size_mib,incremental_rss_mib,protected_test_balanced_accuracy
+MobileNetV3-Large,ONNX,x86_64 CPU,17.75,16.11,59.90,0.7863
+YOLO11s-cls,ONNX,x86_64 CPU,25.62,20.85,70.57,0.6392
+YOLO11s-cls,TorchScript,x86_64 CPU,57.75,20.84,52.25,0.6392
+DenseNet121,ONNX,x86_64 CPU,103.80,26.98,107.53,0.7775
+ResNet50,ONNX,x86_64 CPU,125.28,89.73,249.59,0.7186
+ResNet50-WILDCAT,ONNX,x86_64 CPU,186.70,90.14,267.77,0.7225
+

@@ -1,0 +1,12 @@
+component,cohort,metric,value,status,interpretation
+initial_router,659-image CKD abnormal challenge,false_normal_route,0.2564,rejected,"Cross-domain failure; model not retained for the safety pathway"
+revised_router,693-image multisource development validation,minimum_source_specific_safety,1.0000,development_only,"Validation result; independent testing remains required"
+revised_router,693-image multisource development validation,minimum_correct_coverage,0.9981,development_only,"Validation result; independent testing remains required"
+revised_router,693-image multisource development validation,sample_weighted_reject_rate,0.00144,development_only,"Thresholds t_normal=0.9755 and t_abnormal=0.9886"
+raw_frame_quality,384 development images and 5376 baseline/stress states,minimum_baseline_acceptance,0.9531,provisional,"Pre-device engineering prior"
+raw_frame_quality,strong synthetic stress states,strong_stress_rejection,0.6391,provisional,"Pre-device engineering prior"
+raw_frame_quality,synthetic perturbations,routing_change_capture,0.8279,provisional,"Pre-device engineering prior"
+raw_frame_quality,synthetic perturbations,classifier_argmax_change_capture,0.8607,provisional,"Pre-device engineering prior"
+framing_quality,segmentation cohort,ground_truth_predicted_decision_agreement,0.9866,provisional,"95% bootstrap CI 0.9833-0.9898"
+framing_quality,ground_truth-prior accepted images,false_rejection,0.0058,provisional,"Final device-domain calibration required"
+

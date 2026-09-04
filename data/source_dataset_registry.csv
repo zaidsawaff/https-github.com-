@@ -1,0 +1,5 @@
+dataset_id,dataset_name,source_url,source_license,role,raw_items,redistributed
+segmentation,Nail Segmentation Dataset,https://www.kaggle.com/datasets/muhammadhammad261/nail-segmentation-dataset,CC0 Public Domain,nail ROI segmentation,6290,no
+general,Nail Disease Detection Dataset,https://www.kaggle.com/datasets/nikhilgurav21/nail-disease-detection-dataset,CC BY-NC-SA 4.0,normality-abnormality routing,3835,no
+ckd17,HP Nail Images for Early Disease Detection,https://www.kaggle.com/datasets/sumitagrawal2247134/hp-nail-images-for-early-disease-detection,Apache 2.0,17-class phenotype recognition,840,no
+

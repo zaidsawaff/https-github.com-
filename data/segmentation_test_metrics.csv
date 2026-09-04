@@ -1,0 +1,5 @@
+model,test_n,dice_mean,dice_ci95_low,dice_ci95_high,dice_median,iou_mean,iou_ci95_low,iou_ci95_high,iou_median,precision,recall,specificity
+LR-ASPP MobileNetV3,671,0.8745,0.8669,0.8819,0.9004,0.7889,0.7786,0.7989,0.8188,0.9333,0.9343,0.9954
+DeepLabV3 MobileNetV3,671,0.8701,0.8625,0.8774,0.8891,0.7814,0.7711,0.7918,0.8003,0.9372,0.9284,0.9957
+U-Net,671,0.8349,0.8228,0.8464,0.8836,0.7408,0.7260,0.7548,0.7914,0.9181,0.8399,0.9948
+

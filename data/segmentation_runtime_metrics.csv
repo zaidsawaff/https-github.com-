@@ -1,0 +1,5 @@
+runtime_format,platform,model_size_mib,median_latency_ms,p95_latency_ms,throughput_fps,mask_parity_n32
+PyTorch eager,x86_64 CPU,NA,61.39,176.43,16.29,reference
+TorchScript,x86_64 CPU,12.28,52.59,66.51,19.02,1.0
+ONNX Runtime,x86_64 CPU,12.60,52.18,175.76,19.16,1.0
+

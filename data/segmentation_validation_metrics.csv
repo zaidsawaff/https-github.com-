@@ -1,0 +1,5 @@
+model,best_epoch,validation_dice,validation_iou,pixel_precision,pixel_recall,parameters_m
+LR-ASPP MobileNetV3,38,0.8764,0.7905,0.9328,0.9352,3.22
+DeepLabV3 MobileNetV3,39,0.8691,0.7796,0.9367,0.9268,11.02
+U-Net,40,0.8337,0.7388,0.9148,0.8445,7.76
+

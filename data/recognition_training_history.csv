@@ -1,0 +1,9 @@
+model,epochs_run,best_epoch,train_macro_f1,validation_macro_f1,generalization_gap,provenance_note
+MobileNetV3-Large,40,40,0.9972,0.7869,0.2103,controlled retraining record
+MambaVision-T,26,18,0.9613,0.7534,0.2079,recovered training history
+DenseNet121,26,18,0.9866,0.6532,0.3334,replacement baseline with recorded history
+ResNet50,26,18,0.9788,0.6741,0.3047,replacement baseline with recorded history
+ResNet50-WILDCAT,28,20,0.9830,0.6394,0.3436,recovered training history
+YOLO11s-cls,32,24,0.9977,0.7492,0.2485,recovered training history
+EfficientNet-B0,NA,NA,NA,NA,NA,original training history unavailable
+

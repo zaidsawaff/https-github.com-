@@ -1,0 +1,9 @@
+rank,model,test_n,accuracy,balanced_accuracy,macro_f1
+1,MobileNetV3-Large,64,0.8125,0.7863,0.7866
+2,DenseNet121,64,0.7656,0.7775,0.7350
+3,ResNet50,64,0.7344,0.7186,0.6998
+4,MambaVision-T,64,0.7344,0.7020,0.6958
+5,ResNet50-WILDCAT,64,0.6875,0.7225,0.6956
+6,EfficientNet-B0,64,0.7188,0.7069,0.6906
+7,YOLO11s-cls,64,0.6719,0.6392,0.6259
+
